@@ -767,6 +767,32 @@ export default function personalidades() {
                         height={"400px"}
                       />
                     </div>
+                    <Grid>
+                      <Typography>
+                        Águia {pI}
+                        Lema: Fazer Diferente
+
+                        Comportamento:
+                        Criativo, Intuitivo, Foco no Futuro, Distraído, Curioso, Informal/Casual e Flexivel.
+
+                        Pontos Fortes:
+                        Provoca mudanças radicais;
+                        Antecipar o futuro;
+                        Criatividade.
+
+                        Pontos de Melhoria:
+                        Falta de atenção para o aqui e agora;
+                        Impaciência e rebeldia;
+                        Defende o novo pelo novo.
+
+                        Motivações:
+                        Liberdade de expressão;
+                        Ausência de controles rígidos;
+                        Ambiente de trabalho descentralizado;
+                        Liberdade para fazer exceções;
+                        Oportunidade para delegar tarefas e detalhes.
+                      </Typography>
+                    </Grid>
                   </Container>
                 );
               }

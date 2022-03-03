@@ -8,7 +8,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { Grid, Typography } from "@mui/material";
+import { CssBaseline, Grid, Typography } from "@mui/material";
 import { createTheme } from "@material-ui/core/styles";
 import { makeStyles } from "@material-ui/styles";
 import Container from "@material-ui/core/Container";
@@ -767,31 +767,100 @@ export default function personalidades() {
                         height={"400px"}
                       />
                     </div>
-                    <Grid>
-                      <Typography>
-                        Águia {pI}
-                        Lema: Fazer Diferente
+                    <Grid container spacing={6} xs={12}>
+                      <Grid item xs={6}>
+                        <Typography>
+                          <h4>Águia {pI}% </h4>
+                          <strong>Lema: </strong>
+                          Fazer Diferente <br />
+                          <strong>Comportamento: </strong>
+                          Criativo, Intuitivo, Foco no Futuro, Distraído,
+                          Curioso, Informal/Casual e Flexivel. <br />
+                          <strong>Pontos Fortes: </strong>
+                          Provoca mudanças radicais; Antecipar o futuro;
+                          Criatividade. <br />
+                          <strong>Pontos de Melhoria: </strong>
+                          Falta de atenção para o aqui e agora; Impaciência e
+                          rebeldia; Defende o novo pelo novo. <br />
+                          <strong>Motivações: </strong>
+                          Liberdade de expressão; Ausência de controles rígidos;
+                          Ambiente de trabalho descentralizado; Liberdade para
+                          fazer exceções; Oportunidade para delegar tarefas e
+                          detalhes.. <br />
+                        </Typography>
+                      </Grid>
 
-                        Comportamento:
-                        Criativo, Intuitivo, Foco no Futuro, Distraído, Curioso, Informal/Casual e Flexivel.
+                      <Grid item xs={6}>
+                        <Typography>
+                          <h4>Lobo {pO}% </h4>
+                          <strong>Lema: </strong>
+                          Fazer Certo <br />
+                          <strong>Comportamento: </strong>
+                          Detalhista e organizado, Estrategista, Busca do
+                          Conhecimento, Pontual, Conservador Previsível. <br />
+                          <strong>Pontos Fortes: </strong>
+                          Passado, presente e futuro; Consciência, Conformidade;
+                          Qualidade Lealdade; Segurança; Regras e
+                          Responsabilidades. <br />
+                          <strong>Pontos de Melhoria: </strong>
+                          Dificuldades de se adaptar às mudanças podem impedir o
+                          progresso; Detalhista e demasiadamente sistematizado.{" "}
+                          <br />
+                          <strong>Motivações: </strong>
+                          Certeza, Compreensão exata de quais são as regras;
+                          conhecimento especifico do trabalho; Ausência de risco
+                          e erros; Ver o produto acabado - começo, meio e fim.{" "}
+                          <br />
+                        </Typography>
+                      </Grid>
+                  <CssBaseline/>
+                      <Grid item xs={6}>
+                        <Typography>
+                          <h4>Gato {pC}% </h4>
+                          <strong>Lema: </strong>
+                          Fazer Junto <br />
+                          <strong>Comportamento: </strong>
+                          Sensível, Relacionamentos, Time, Tradicionalista,
+                          Contribuição, Busca Harmonia e Delega Autoridade.{" "}
+                          <br />
+                          <strong>Pontos Fortes: </strong>
+                          Manter comunicação harmoniosa; Desenvolver e manter a
+                          cultura empresarial; Comunicação aberta. <br />
+                          <strong>Pontos de Melhoria: </strong>
+                          Esconder conflitos; Felicidade acima dos resultados;
+                          Manipulação através dos sentimentos. <br />
+                          <strong>Motivações: </strong>
+                          Segurança e aceitação social; Construir o consenso;
+                          Reconhecimento da equipe; Supervisão compreensiva;
+                          Ambiente harmônico; Trabalho em grupo. <br />
+                        </Typography>
+                      </Grid>
 
-                        Pontos Fortes:
-                        Provoca mudanças radicais;
-                        Antecipar o futuro;
-                        Criatividade.
-
-                        Pontos de Melhoria:
-                        Falta de atenção para o aqui e agora;
-                        Impaciência e rebeldia;
-                        Defende o novo pelo novo.
-
-                        Motivações:
-                        Liberdade de expressão;
-                        Ausência de controles rígidos;
-                        Ambiente de trabalho descentralizado;
-                        Liberdade para fazer exceções;
-                        Oportunidade para delegar tarefas e detalhes.
-                      </Typography>
+                      <Grid item xs={6}>
+                        <Typography>
+                          <h4>Tubarão {pA}% </h4>
+                          <strong>Lema: </strong>
+                          Fazer Rápido <br />
+                          <strong>Comportamento: </strong>
+                          Senso de urgência, Ação, Iniciativo, Impulsivo,
+                          Prático, Vencer desafios, Aqui e Agora,
+                          Auto-suficiente, Não gosta de delegar poder.
+                          <br />
+                          <strong>Pontos Fortes: </strong>
+                          Fazer que ocorra; Parar com a burocracia motivação.{" "}
+                          <br />
+                          <strong>Pontos de Melhoria: </strong>
+                          Socialmente um desastre; Faz do modo mais fácil;
+                          Relacionamento complicado.
+                          <br />
+                          <strong>Motivações: </strong>
+                          Liberdade para agir individualmente; Controle das
+                          próprias atividades; resolver os problemas do seu
+                          jeito; Competição individual; Variedade de atividades;
+                          Não ter que repetir tarefa.
+                          <br />
+                        </Typography>
+                      </Grid>
                     </Grid>
                   </Container>
                 );

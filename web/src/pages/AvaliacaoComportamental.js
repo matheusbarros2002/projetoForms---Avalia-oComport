@@ -768,8 +768,8 @@ export default function personalidades() {
                       />
                     </div>
                     <Grid container spacing={6} xs={12}>
-                      <Grid item xs={6}>
-                        <Typography>
+                      <Grid item xs={12} md={6}>
+                        <Typography align="justify">
                           <h4>Águia {pI}% </h4>
                           <strong>Lema: </strong>
                           Fazer Diferente <br />
@@ -790,8 +790,8 @@ export default function personalidades() {
                         </Typography>
                       </Grid>
 
-                      <Grid item xs={6}>
-                        <Typography>
+                      <Grid item xs={12} md={6}>
+                        <Typography align="justify">
                           <h4>Lobo {pO}% </h4>
                           <strong>Lema: </strong>
                           Fazer Certo <br />
@@ -813,9 +813,9 @@ export default function personalidades() {
                           <br />
                         </Typography>
                       </Grid>
-                  <CssBaseline/>
-                      <Grid item xs={6}>
-                        <Typography>
+                      <CssBaseline />
+                      <Grid item xs={12} md={6}>
+                        <Typography align="justify">
                           <h4>Gato {pC}% </h4>
                           <strong>Lema: </strong>
                           Fazer Junto <br />
@@ -836,8 +836,8 @@ export default function personalidades() {
                         </Typography>
                       </Grid>
 
-                      <Grid item xs={6}>
-                        <Typography>
+                      <Grid item xs={12} md={6}>
+                        <Typography align="justify">
                           <h4>Tubarão {pA}% </h4>
                           <strong>Lema: </strong>
                           Fazer Rápido <br />
